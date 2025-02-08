@@ -4,6 +4,9 @@
 
 package com.mycompany.deposito;
 
+// Importamos la clase Main del paquete cuentas
+import com.mycompany.cuentas.Main;
+
 /**
  *
  * @author Admin
@@ -11,6 +14,7 @@ package com.mycompany.deposito;
 public class Deposito {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        // Llamamos al método main de la clase Main
+        Main.main(args);
     }
 }
